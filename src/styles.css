@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+/* https://coolors.co/157f1f-4cb963-a0eade-5c6784-1d263b */
+/*
+Space Cadet: #2D3142
+Independence: #4F5D75
+Silver: #BFC0C0
+White: #FFFFFF
+Mandarin: #EF8354
+*/
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  background-color: #2D3142;
+  color: #FFFFFF;
+}
+
+.card-header {
+  background-color: #BFC0C0;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+}
+
+img {
+  display: block;
+  width: auto;
+  max-height: 20%;
+}

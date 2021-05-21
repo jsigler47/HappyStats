@@ -1,0 +1,13 @@
+<div *ngFor="let stat of stats">
+  <div class="card my-3">
+    <div class="card-header">{{ stat.title }}</div>
+    <div class="card-body">
+      <div class="col mx-1">
+        <img [attr.src]="stat.imgUrl" class="thumbnail float-left">
+      </div>
+      <div class="col col-md-8 my-5 float-right">
+        <p class="text-wrap">{{ stat.brief }}</p>
+      </div>
+    </div>
+  </div>
+</div>
