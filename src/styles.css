@@ -16,7 +16,6 @@ body {
 
 /* use viewport-relative units to cover page fully */
 body {
-  background-color: #FFFFFF;
   height: 100vh;
   width: 100vw;
 }
@@ -27,6 +26,7 @@ body {
 }
 
 .jumbotron {
+  border-radius: 0;
   background-color: #2D3142;
   color: #FFFFFF;
 }
@@ -37,8 +37,38 @@ body {
   font-size: 1.3rem;
 }
 
-img {
-  display: block;
-  width: auto;
-  max-height: 20%;
+.circle {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 100% 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col-1 {
+  background-color: aqua;
+  border-style: solid;
+}
+.col {
+  background-color: brown;
+  border-style: solid;
+}
+
+.col p {
+  color: white;
+}
+
+.row {
+  background-color: burlywood;
+  border-style: solid;
 }

@@ -1,5 +1,26 @@
+<div class="card">
+  <div *ngFor="let stat of stats">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1 m-3 p-1">
+          <div class="circle">
+            <img [attr.src]="stat.imgUrl">
+          </div>
+        </div>
+        <div class="col m-3">
+          <p class="text-wrap">{{ stat.brief }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--
+
 <div *ngFor="let stat of stats">
-  <div class="card my-3">
+    <div class="card my-3">
     <div class="card-header">{{ stat.title }}</div>
     <div class="card-body">
       <div class="col mx-1">
@@ -11,3 +32,5 @@
     </div>
   </div>
 </div>
+
+-->
