@@ -72,3 +72,8 @@ body {
   background-color: burlywood;
   border-style: solid;
 }
+
+.center {
+  margin: auto;
+  width: 70%;
+}
