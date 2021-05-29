@@ -1,0 +1,38 @@
+<div class="center">
+  <div *ngFor="let stat of stats; index as i">
+    <a href="#">
+    <div class="container-fluid">
+      <div *ngIf="i % 2 == 0" class="row">
+        <div class="col-1 m-3 p-1">
+          <div class="circle">
+            <img [attr.src]="stat.imgUrl">
+          </div>
+        </div>
+        <div class="col m-3">
+          <div class="row inside">
+            <h4>{{ stat.title }}</h4>
+          </div>
+          <div class="row inside">
+            <p class="text-wrap">{{ stat.brief }}</p>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="i % 2 == 1" class="row">
+        <div class="col m-3">
+          <div class="row inside text-right">
+            <h4>{{ stat.title }}</h4>
+          </div>
+          <div class="row inside">
+            <p class="text-wrap">{{ stat.brief }}</p>
+          </div>
+        </div>
+          <div class="col-1 m-3 p-1">
+          <div class="circle">
+            <img [attr.src]="stat.imgUrl">
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  </div>
+</div>

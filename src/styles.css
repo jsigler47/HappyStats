@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+/* https://coolors.co/157f1f-4cb963-a0eade-5c6784-1d263b */
+/*
+Space Cadet: #2D3142
+Independence: #4F5D75
+Silver: #BFC0C0
+White: #FFFFFF
+Mandarin: #EF8354
+*/
+
+.col p {
+  color: #2D3142;
+  font-size: 1.4rem;
+}
+
+.row {
+  margin-top: 1rem;
+  /* background-color: burlywood; */
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: #BFC0C0;
+}
+
+.row:hover {
+  border-color: #2D3142;
+}
+
+.center {
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+}
+
+

@@ -1,0 +1,51 @@
+/*
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+  border-radius: 0;
+  background-color: #2D3142;
+  text-align: center;
+  height: 3.5em;
+  font-size: calc(.5em + 5vw) ;
+  font-weight: 900;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow:
+						8px 8px #EF8354,
+						20px 20px #2D3142;
+}
+
+*/
+
+.jumbotron {
+  border-radius: 0;
+  background-color: #2D3142;
+
+}
+
+h1 {
+  color: #EF8354;
+  font-weight: 900;
+  text-align: center;
+	font-size: calc(.5em + 10vw) ;
+}
+
+.footer fa-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+fa-icon {
+  color: #2D3142;
+}
